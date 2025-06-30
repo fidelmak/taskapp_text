@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
@@ -11,16 +10,15 @@ void main() {
   // Ensure Flutter binding is initialized
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Initialize sqflite for desktop platforms
-  if (Platform.isWindows ||
-      Platform.isLinux ||
-      Platform.isMacOS ||
-      Platform.isAndroid) {
+  // Initialize sqflite for desktop platforms ONLY
+  if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
     // Initialize FFI
     sqfliteFfiInit();
     // Change the default factory for desktop platforms
     databaseFactory = databaseFactoryFfi;
   }
+  // For Android and iOS, use the default sqflite implementation
+  // No additional setup needed
 
   runApp(const MyApp());
 }
