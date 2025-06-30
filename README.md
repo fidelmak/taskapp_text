@@ -57,12 +57,49 @@ Robust error handling is implemented for database operations:
 - Console logging for debugging
 - Graceful fallbacks to prevent app crashes
 
-## Installation
+## How to Run the App
 
-1. Ensure Flutter is installed on your system
-2. Clone this repository
-3. Run `flutter pub get` to install dependencies
-4. Run `flutter run` to start the app
+### Prerequisites
+- Flutter SDK (version 3.0 or higher)
+- Dart SDK
+- Android Studio or VS Code with Flutter extensions
+- Android device/emulator or iOS simulator
+
+### Steps
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd taskapp
+   ```
+
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the app**
+   ```bash
+   # For development
+   flutter run
+   
+   # For specific platform
+   flutter run -d android
+   flutter run -d ios
+   ```
+
+4. **Build for release** (optional)
+   ```bash
+   # Android APK
+   flutter build apk
+   
+   # iOS
+   flutter build ios
+   ```
+
+### Troubleshooting
+- Run `flutter doctor` to check for any setup issues
+- Ensure your device is connected or emulator is running
+- Use `flutter clean` if you encounter build issues
 
 ## Dependencies
 
