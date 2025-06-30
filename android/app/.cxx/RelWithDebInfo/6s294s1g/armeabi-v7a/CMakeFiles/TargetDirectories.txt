@@ -1,0 +1,2 @@
+/home/pf/Desktop/projectz/taskapp/android/app/.cxx/RelWithDebInfo/6s294s1g/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/pf/Desktop/projectz/taskapp/android/app/.cxx/RelWithDebInfo/6s294s1g/armeabi-v7a/CMakeFiles/rebuild_cache.dir

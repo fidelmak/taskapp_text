@@ -1,0 +1,1 @@
+/home/pf/Desktop/projectz/taskapp/build/app/intermediates/cxx/RelWithDebInfo/6s294s1g/obj/x86_64
