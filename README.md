@@ -60,8 +60,9 @@ Robust error handling is implemented for database operations:
 ## Video view 
 
 <video width="640" height="480" controls>
-  <source src="taskapp/assets/view.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  <source src="assets/view.mp4" type="video/mp4">
+  Your browser does not support the video tag. 
+  <a href="taskapp/assets/view.mp4">Download the video instead</a>.
 </video>
 
 ## How to Run the App
